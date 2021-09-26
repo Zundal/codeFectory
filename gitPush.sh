@@ -2,5 +2,5 @@
 VAR=`date`
 
 git add .
-git commit -m echo $date
+git commit -m "`date`"
 git push origin main
